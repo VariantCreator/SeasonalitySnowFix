@@ -1,10 +1,10 @@
 {
   "name": "SeasonalitySnowFix",
   "description": "Fixes unwanted snow and ocean weather on expanded worlds with Seasonality.",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "",
   "dependencies": [
-    "RustyMods-Seasonality-3.8.3",
+    "RustyMods-Seasonality-3.8.4",
     "JereKuusela-Expand_World_Size-1.43.0"
   ]
 }

@@ -17,7 +17,7 @@ If you have the first test build, remove `SeasonalityExpandedWorldSnowFix.dll` b
 ## Required mods
 
 - BepInEx
-- Seasonality 3.8.3 (or later)
+- Seasonality 3.8.3 or 3.8.4
 - Expand World Size 1.43.0 or 1.44.0 (or later)
 
 Expand World Data is optional. This build is for Valheim 1.0.17.
@@ -39,7 +39,7 @@ If a required game or world-size API changes, the patch stays off and logs a mes
 
 This corrects the snow overlay and coastal weather checks. Custom weather can still make an area cold or freezing. The patch does not grant cold immunity.
 
-In Seasonality 3.8.3, use `Warm_Twilight_SnowStorm` in winter weather entries. Some configs use the unregistered name `Warm_Twilight_Snow`. Update Seasonality's server config too when playing on a server.
+In Seasonality 3.8.3 and 3.8.4, use `Warm_Twilight_SnowStorm` in winter weather entries. Some configs use the unregistered name `Warm_Twilight_Snow`. Update Seasonality's server config too when playing on a server.
 
 On affected objects, the patch also removes snow caused by high altitude in normally snow-free biomes. Custom biomes and other shaders are left alone.
 
